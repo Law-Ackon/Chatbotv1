@@ -2,7 +2,7 @@
 // CONFIGURATION - PASTE YOUR API KEY HERE
 // ============================================
 const OPENAI_API_KEY =
-  "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" // <-- PASTE YOUR API KEY BETWEEN THE QUOTES
+  " " // <-- PASTE YOUR API KEY BETWEEN THE QUOTES
 
 // ============================================
 // SCHOOL DATA - Add more JSON data here
@@ -206,4 +206,5 @@ Guidelines:
     sendBtn.disabled = false
     chatInput.focus()
   }
+
 }

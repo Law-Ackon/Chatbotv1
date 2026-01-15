@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Cape Coast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Your main website content goes here -->
+    <div class="main-content">
+        <h1>Welcome to University of Cape Coast</h1>
+        <p>Click the chat button to ask questions about admissions, programs, and more!</p>
+    </div>
+
+    <!-- Chat Widget -->
+    <div id="chatWidget" class="chat-widget">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <h3>UCC Assistant</h3>
+            <button id="closeChat" class="close-btn">&times;</button>
+        </div>
+
+        <!-- Chat Messages Container -->
+        <div id="chatMessages" class="chat-messages">
+            <div class="bot-message">
+                <p>Hello! I'm the University of Cape Coast virtual assistant. How can I help you today?</p>
+            </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                id="chatInput" 
+                placeholder="Ask about admissions, programs, etc..."
+                autocomplete="off"
+            >
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button id="chatButton" class="chat-fab">
+        <!-- Robot head -->
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <rect x="6" y="7" width="12" height="10" rx="2" fill="white"/>
+            <!-- Antenna -->
+            <circle cx="12" cy="4" r="1.5" fill="white"/>
+            <line x1="12" y1="5.5" x2="12" y2="7" stroke="white" stroke-width="1.5"/>
+            <!-- Eyes -->
+            <circle cx="9.5" cy="11" r="1.2" fill="#0066cc"/>
+            <circle cx="14.5" cy="11" r="1.2" fill="#0066cc"/>
+            <!-- Smile -->
+            <path d="M 9 14 Q 12 15.5 15 14" stroke="#0066cc" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <!-- Arms -->
+            <rect x="4" y="10" width="2" height="4" rx="1" fill="white"/>
+            <rect x="18" y="10" width="2" height="4" rx="1" fill="white"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
